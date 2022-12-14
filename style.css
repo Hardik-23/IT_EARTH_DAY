@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(cyan 0%, lime 100%);
+}
+
+#heading
+{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #146605;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: bold;
+}
+
+#img
+{
+    border: 5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 10px 10px 10px lime;}
+    to{box-shadow: 10px 10px 10px blue;}
+}
+
+@keyframes example2
+{
+    from{box-shadow:4px 4px 4px lime ;}
+    to{box-shadow:4px 4px 4px blue ;}
+}
+
+p{
+    font-family: 'Unbound', cursive;
+    font-weight: bold;
+}
